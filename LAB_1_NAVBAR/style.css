@@ -10,9 +10,19 @@ body {
 }
 
 .bar {
-  height: 50px;
-  background: #3a3633;
-  color: #fff;
+    height: 50px;
+    width: 100%;
+    background: #3a3633;
+    color: #fff;
+    position:fixed;
+}
+#navb{
+    top:0;
+    z-index: 1;
+}
+#footb{
+    bottom:0;
+    background-color: pink;
 }
 
 .center-content {
@@ -29,8 +39,11 @@ body {
 img{
     width: 200px;
     height: 200px;
+    border: 2px dashed red;
+    margin: 0 auto;
 }
 
 .features{
-
+    justify-content: space-evenly;
+    width: 100%;
 }
